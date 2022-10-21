@@ -1,8 +1,11 @@
 import React from "react";
+import { Container } from "./style";
 
 const Header = () => {
   return (
-    <h2>Teste 2</h2>
+    <Container>
+      <h1>Teste</h1>
+    </Container>
   );
 };
 
