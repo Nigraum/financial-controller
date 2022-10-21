@@ -1,10 +1,11 @@
 import React from "react";
+import ResumeItem from "../ResumeItem";
 import { Container } from "./style";
 
 const Resume = () => {
   return (
     <Container>
-      <h1>Teste</h1>
+      <ResumeItem />
     </Container>
   );
 };
