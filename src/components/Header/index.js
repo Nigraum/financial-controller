@@ -1,10 +1,12 @@
 import React from "react";
-import { Container } from "./style";
+import { Container, Theader, Title } from "./style";
 
 const Header = () => {
   return (
     <Container>
-      <h1>Teste</h1>
+      <Theader>
+        <Title>Financial Control</Title>
+      </Theader>
     </Container>
   );
 };

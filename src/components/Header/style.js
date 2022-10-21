@@ -5,3 +5,10 @@ export const Container = styled.div`
   text-align: center;
   background: teal;
 `;
+
+export const Theader = styled.h1``;
+
+export const Title = styled.div`
+  padding-top: 20px;
+  color: #fff;
+`;
