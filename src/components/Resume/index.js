@@ -6,6 +6,8 @@ const Resume = () => {
   return (
     <Container>
       <ResumeItem />
+      <ResumeItem />
+      <ResumeItem />
     </Container>
   );
 };
