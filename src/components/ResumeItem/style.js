@@ -8,4 +8,8 @@ export const Container = styled.div`
   border-radius: 5px;
   padding: 5px 15px;
   width: 30%;
+
+  @media (max-width: 750px) {
+    width: 20%;
+  }
 `;
