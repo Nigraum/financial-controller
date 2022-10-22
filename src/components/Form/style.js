@@ -6,4 +6,9 @@ export const Container = styled.div`
   width: 98%;
   background-color: #fff;
   box-shadow: 0px 0px 5px #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0px;
+  gap: 10px;
 `;
