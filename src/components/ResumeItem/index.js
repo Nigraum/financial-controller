@@ -1,8 +1,14 @@
 import React from "react";
+import { Container, HeaderTitle, THeader, Total } from "./style";
 
 const ResumeItem = () => {
   return (
-    <h1>Teste</h1>
+    <Container>
+      <THeader>
+        <HeaderTitle>Teste</HeaderTitle>
+      </THeader>
+      <Total>1000</Total>
+    </Container>
   );
 };
 
