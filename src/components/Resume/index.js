@@ -1,18 +1,18 @@
 import React from "react";
 import ResumeItem from "../ResumeItem";
 import { Container } from "./style";
-import {
-  FaRegArrowAltCircleUp,
-  FaRegArrowAltCircleDown,
-  FaDollarSign,
+import { 
+  FaDollarSign, 
+  FaRegArrowAltCircleDown, 
+  FaRegArrowAltCircleUp 
 } from "react-icons/fa";
 
 const Resume = () => {
   return (
     <Container>
-      <ResumeItem icon={FaRegArrowAltCircleUp} />
-      <ResumeItem />
-      <ResumeItem />
+      <ResumeItem title="Entradas" Icon={FaRegArrowAltCircleUp} />
+      <ResumeItem title="Saídas" Icon={FaRegArrowAltCircleDown} />
+      <ResumeItem title="Total" Icon={FaDollarSign} />
     </Container>
   );
 };
