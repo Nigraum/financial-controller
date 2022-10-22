@@ -1,8 +1,11 @@
 import React from "react";
+import { Container } from "./style";
 
 const Form = () => {
   return (
-    <h1>Teste</h1>
+    <Container>
+      teste
+    </Container>
   );
 };
 
