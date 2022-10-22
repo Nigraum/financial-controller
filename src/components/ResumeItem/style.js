@@ -25,3 +25,11 @@ export const Container = styled.div`
     }
   }
 `;
+
+export const THeader = styled.header`
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  gap: 10px;
+`;
