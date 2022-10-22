@@ -33,3 +33,7 @@ export const THeader = styled.header`
   width: 100%;
   gap: 10px;
 `;
+
+export const HeaderTitle = styled.p`
+  font-size: 20px;
+`;
