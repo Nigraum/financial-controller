@@ -11,6 +11,10 @@ export const Container = styled.div`
   justify-content: space-around;
   padding: 15px 0px;
   gap: 10px;
+
+  @media (max-width: 750px) {
+    display: grid;
+  }
 `;
 
 export const InputContent = styled.div`
