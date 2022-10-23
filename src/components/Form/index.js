@@ -38,6 +38,7 @@ const Form = () => {
         />
         <Label htmlFor="rExpenses">Saída</Label>
       </RadioGroup>
+      <Button>Adicionar</Button>
     </Container>
   );
 };
