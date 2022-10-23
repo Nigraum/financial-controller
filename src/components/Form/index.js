@@ -26,11 +26,17 @@ const Form = () => {
           id="rIncome"
           defaultChecked
           name="group1"
+          onChange={() => setExpense(!isExpense)}
         />
+        <Label htmlFor="rIncome">Entrada</Label>
+
         <Input
           type="radio"
-
+          id="rExpenses"
+          name="group1"
+          onChange={() => setExpense(!isExpense)}
         />
+        <Label htmlFor="rExpenses">Saída</Label>
       </RadioGroup>
     </Container>
   );
