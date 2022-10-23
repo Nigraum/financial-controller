@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Input, InputContent, Label, RadioGroup } from "./style";
+import { Button, Container, Input, InputContent, Label, RadioGroup } from "./style";
 
 const Form = () => {
   return (
@@ -11,6 +11,7 @@ const Form = () => {
       <Input />
       <Input />
       </InputContent>
+      <Button />
     </Container>
   );
 };
