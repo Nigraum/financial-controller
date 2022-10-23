@@ -1,10 +1,12 @@
 import React from "react";
-import { Container } from "./style";
+import { Container, InputContent } from "./style";
 
 const Form = () => {
   return (
     <Container>
-      teste
+      <InputContent>
+      teste<br/>teste
+      </InputContent>
     </Container>
   );
 };

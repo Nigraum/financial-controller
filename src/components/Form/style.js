@@ -12,3 +12,8 @@ export const Container = styled.div`
   padding: 15px 0px;
   gap: 10px;
 `;
+
+export const InputContent = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
