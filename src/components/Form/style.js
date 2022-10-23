@@ -31,3 +31,14 @@ export const Input = styled.input`
   font-size: 15px;
   border: 1px solid #ccc;
 `;
+
+export const RadioGroup = styled.div`
+  display: flex;
+  align-items: center;
+
+  input {
+    margin-left: 20px;
+    accent-color: black;
+    margin-top: 0;
+  }
+`;
