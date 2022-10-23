@@ -1,11 +1,13 @@
 import React from "react";
-import { Container, InputContent } from "./style";
+import { Container, Input, InputContent, Label } from "./style";
 
 const Form = () => {
   return (
     <Container>
       <InputContent>
-      teste<br/>teste
+      <Label />
+      <Input />
+      <Input />
       </InputContent>
     </Container>
   );

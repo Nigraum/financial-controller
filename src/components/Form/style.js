@@ -17,3 +17,13 @@ export const InputContent = styled.div`
   display: flex;
   flex-direction: column;
 `;
+
+export const Label = styled.label``;
+
+export const Input = styled.input`
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+`;
