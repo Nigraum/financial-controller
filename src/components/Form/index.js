@@ -3,13 +3,21 @@ import { Button, Container, Input, InputContent, Label, RadioGroup } from "./sty
 
 const Form = () => {
   const [desc, setDesc] = useState("");
+  const [amount, setAmount] = useState("");
 
   return (
     <Container>
       <InputContent>
-        <Label>
+        <Label>Descrição</Label>
           <Input value={desc} onChange={(e) => setDesc(e.target.value)} />
-        </Label>
+      </InputContent>
+      <InputContent>
+        <Label>Valor</Label>
+        <Input 
+          value={amount} 
+          type="number"
+          onChange={(e) => setAmount(e.target.value)}
+        />
       </InputContent>
     </Container>
   );
