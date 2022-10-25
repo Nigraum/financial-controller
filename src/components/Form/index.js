@@ -6,6 +6,16 @@ const Form = () => {
   const [amount, setAmount] = useState("");
   const [isExpense, setExpense] = useState(false);
 
+  const handleSave = () => {
+    if (!desc || !amount) {
+      alert("Informe a descrição e o valor!");
+      return;
+    } else if (amount < 1) {
+      alert("O valor tem que ser positivo!");
+      return;
+    }
+  };
+
   return (
     <Container>
       <InputContent>
@@ -38,7 +48,7 @@ const Form = () => {
         />
         <Label htmlFor="rExpenses">Saída</Label>
       </RadioGroup>
-      <Button>Adicionar</Button>
+      <Button onClick={handleSave()}>Adicionar</Button>
     </Container>
   );
 };
