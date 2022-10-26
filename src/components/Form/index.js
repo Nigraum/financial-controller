@@ -16,6 +16,13 @@ const Form = () => {
       alert("O valor tem que ser positivo!");
       return;
     }
+
+    const transaction = {
+      id: generateID(),
+      desc: desc,
+      amount: amount,
+      expense: isExpense,
+    }; 
   };
 
   return (
