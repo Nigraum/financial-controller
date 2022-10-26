@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button, Container, Input, InputContent, Label, RadioGroup } from "./style";
 
-const Form = () => {
+const Form = ({handleAdd}) => {
   const [desc, setDesc] = useState("");
   const [amount, setAmount] = useState("");
   const [isExpense, setExpense] = useState(false);
@@ -22,7 +22,13 @@ const Form = () => {
       desc: desc,
       amount: amount,
       expense: isExpense,
-    }; 
+    };
+    
+    handleAdd(transaction);
+
+    setDesc("");
+    setAmount("");
+
   };
 
   return (
