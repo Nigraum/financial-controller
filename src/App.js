@@ -44,7 +44,7 @@ const App = () => {
     <>
       <Header />
       <Resume income={income} expense={expense} total={total} />
-      <Form />
+      <Form handleAdd={handleAdd} />
       <GlobalStyle />
     </>
   );
