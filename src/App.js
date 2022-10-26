@@ -34,6 +34,10 @@ const App = () => {
 
   const handleAdd = (transaction) => {
     const newArrayTransactions = [...transactionsList, transaction];
+
+    setTransactionsList(newArrayTransactions);
+
+    localStorage.setItem("transactions", JSON.stringify(newArrayTransactions));
   };
 
   return (
