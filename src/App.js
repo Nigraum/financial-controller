@@ -32,6 +32,10 @@ const App = () => {
     setTotal(`${Number(income) < Number(expense) ? "-" : ""}R$ ${total}`);
   }, [transactionsList]);
 
+  const handleAdd = (transaction) => {
+    const newArrayTransactions = [...transactionsList, transaction];
+  };
+
   return (
     <>
       <Header />
